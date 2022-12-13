@@ -38,6 +38,12 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# exlude output folder, with exceptions
+# exlude other folders or file types
 /output/
+/docs/tex_supplMat/
+/docs/*docx
+/docs/*pdf
+/docs/*tex
+
+
 
