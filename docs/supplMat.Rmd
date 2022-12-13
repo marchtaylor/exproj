@@ -54,7 +54,7 @@ iTab = 0
 
 # Introduction
 
-Bla di bla [@pastoors_effects_2000]. @friedland_trends_2021 results support other studies [@chong_performance_2020;  @taylor_using_2021]. Cite Pastoors without adding name [-@pastoors_effects_2000]
+Bla di bla [@pastoors_effects_2000]. @friedland_trends_2021 results support other studies [@chong_performance_2020; @taylor_using_2021]. Cite Pastoors without adding name [-@pastoors_effects_2000]
 
 # Methods
 
@@ -74,9 +74,6 @@ knitr::include_graphics(fname, dpi = floor(dim(tmp)[2]/6))
 
 **Figure S`r iFig=iFig+1; iFig`.** bla bla
 
-
-
-
 ```{r}
 library(vegan)
 data(dune)
@@ -91,12 +88,9 @@ text(mod, "species", col="blue", cex=0.8, scaling="sites")
 
 **Figure S`r iFig=iFig+1; iFig`.** CCA plot example.
 
-
 ## subsection
 
-
 ### sub-subsection
-
 
 \pagebreak
 
