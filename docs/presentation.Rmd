@@ -38,8 +38,12 @@ https://hartwork.org/beamer-theme-matrix/
 
 ---
 
-```{r, cars, fig.cap="A scatterplot.", echo=FALSE}
-plot(cars)
+```{r, echo=FALSE}
+library(png)
+library(knitr)
+fname <- file.path("../output/volcano.png")
+tmp <- readPNG(fname)
+knitr::include_graphics(fname, dpi = 600)
 ```
 
 ## Going to sleep

@@ -44,6 +44,7 @@ vignettes/*.pdf
 /docs/*docx
 /docs/*pdf
 /docs/*tex
+/docs/*log
 
 
 
